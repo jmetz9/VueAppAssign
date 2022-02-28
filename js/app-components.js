@@ -27,7 +27,7 @@ Vue.component('item', {
                 {{item.description}}
                 </b-card-text>
                 <b-card-text>
-                {{item.price}}
+                $ {{item.price}}
                 </b-card-text>
             </b-card-body>
             <b-form-spinbutton v-model="value" min="0" max="100"></b-form-spinbutton>

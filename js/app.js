@@ -4,9 +4,10 @@ const app = new Vue({
     data: function(){
         return {
             cart: [],
-            list: [{name: 'Paper', price: 5, description: 'description'},
-                {name: 'Phone', price: 400, description: 'description'},
-                {name: 'Phone', price: 400, description: 'description'}],
+            list: [{name: 'Paper', price: 5, description: 'A sheet of paper.'},
+                {name: 'Phone', price: 400, description: 'The latest and most high end phone.'},
+                {name: 'Trash', price: .1, description: 'Trash. Thats it.'},
+                {name: 'Boat', price: 2000000, description: 'A luxury Cruise Liner for you and your best friends'}],
         }
     },
 
